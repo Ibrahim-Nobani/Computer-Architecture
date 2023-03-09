@@ -1,0 +1,12 @@
+memory_tb ENTITY
+inst_decode_tb ENTITY
+register_file_tb ENTITY
+status_register_8bit_tb ENTITY
+register_24bit_tb ENTITY
+pc_tb ENTITY
+sign_extender_tb ENTITY
+mux3x1_24_tb ENTITY
+mux2x1_24_tb ENTITY
+tb_ContUnit ENTITY
+alu_tb ENTITY
+DataPath ENTITY

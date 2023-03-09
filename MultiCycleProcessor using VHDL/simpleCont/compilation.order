@@ -1,0 +1,11 @@
+.\src\pc.vhd
+.\src\registerfile.vhd
+.\src\status_reg.vhd
+.\src\regdecode.vhd
+.\src\Register.vhd
+.\src\ControlUnit.vhd
+.\src\memory.vhd
+.\src\Muxes&units.vhd
+.\src\alu.vhd
+.\src\Clock.vhd
+.\src\DataPath.bde

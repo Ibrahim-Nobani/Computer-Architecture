@@ -1,0 +1,12 @@
+"C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/pc.vhd" VHDL simplecont 1 0 0 -02
+"C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/registerfile.vhd" VHDL simplecont 1 0 0 -02
+"C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/status_reg.vhd" VHDL simplecont 1 0 0 -02
+"C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/regdecode.vhd" VHDL simplecont 1 0 0 -02
+"C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/Register.vhd" VHDL simplecont 1 0 0 -02
+"C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/ControlUnit.vhd" VHDL simplecont 1 0 0 -02
+"C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/memory.vhd" VHDL simplecont 1 0 0 -02
+"C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/Muxes&units.vhd" VHDL simplecont 1 0 0 -02
+"C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/alu.vhd" VHDL simplecont 1 0 0 -02
+"C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/Clock.vhd" VHDL simplecont 1 0 0 -02
+"./../compile/DataPath.vhd" VHDL simplecont 1 0 0 -02
+. . 0 0 0

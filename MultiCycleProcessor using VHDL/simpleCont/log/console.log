@@ -1,0 +1,123 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Unit DataPath(DataPath) created by a newer version of the compiler found.
+# ELBREAD: Error: Library 'simplecont' has incompatible format. Recompile all library units.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Warning: /DataPath/clk has not been found in the ASDB file.
+# Warning: /DataPath/cond has not been found in the ASDB file.
+# Warning: /DataPath/opcode has not been found in the ASDB file.
+# Warning: /DataPath/sf has not been found in the ASDB file.
+# Warning: /DataPath/rd has not been found in the ASDB file.
+# Warning: /DataPath/rt has not been found in the ASDB file.
+# Warning: /DataPath/rs has not been found in the ASDB file.
+# Warning: /DataPath/state has not been found in the ASDB file.
+# Warning: /DataPath/control has not been found in the ASDB file.
+# Warning: /DataPath/zeroflag has not been found in the ASDB file.
+# Warning: /DataPath/a has not been found in the ASDB file.
+# Warning: /DataPath/b has not been found in the ASDB file.
+# Warning: /DataPath/adress has not been found in the ASDB file.
+# Warning: /DataPath/aluout has not been found in the ASDB file.
+# Warning: /DataPath/alubreg has not been found in the ASDB file.
+# Warning: /DataPath/alu1 has not been found in the ASDB file.
+# Warning: /DataPath/alu2 has not been found in the ASDB file.
+# Warning: /DataPath/luiimm has not been found in the ASDB file.
+# Warning: /DataPath/memoryout has not been found in the ASDB file.
+# Warning: /DataPath/memoutbreg has not been found in the ASDB file.
+# Warning: /DataPath/nextstate has not been found in the ASDB file.
+# Warning: /DataPath/pcen has not been found in the ASDB file.
+# Warning: /DataPath/pcbus has not been found in the ASDB file.
+# Warning: /DataPath/pcsrc has not been found in the ASDB file.
+# Warning: /DataPath/signextimm has not been found in the ASDB file.
+# Warning: /DataPath/regwriteback has not been found in the ASDB file.
+# Warning: /DataPath/regw has not been found in the ASDB file.
+acom -reorder -O3 -e 100 -work simplecont -2002  $dsn/src/pc.vhd $dsn/src/registerfile.vhd $dsn/src/status_reg.vhd $dsn/src/regdecode.vhd $dsn/src/Register.vhd $dsn/src/ControlUnit.vhd $dsn/src/memory.vhd $dsn/src/Muxes&units.vhd $dsn/src/alu.vhd $dsn/src/Clock.vhd $dsn/src/DataPath.bde
+# DRC: Checking file 'C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/DataPath.bde'.
+# DRC: Warning: DataPath.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\hp\Desktop\Architecture\simpleCont22\simpleCont\compile\DataPath.vhd from C:\Users\hp\Desktop\Architecture\simpleCont22\simpleCont\src\DataPath.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/pc.vhd
+# Compile Entity "pc"
+# Compile Architecture "behavior" of Entity "pc"
+# Compile Entity "pc_tb"
+# Compile Architecture "simple" of Entity "pc_tb"
+# File: C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/registerfile.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# Compile Entity "register_file_tb"
+# Compile Architecture "behavioral" of Entity "register_file_tb"
+# File: C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/status_reg.vhd
+# Compile Entity "status_register_8bit"
+# Compile Architecture "behavioral" of Entity "status_register_8bit"
+# Compile Entity "status_register_8bit_tb"
+# Compile Architecture "behavioral" of Entity "status_register_8bit_tb"
+# File: C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/regdecode.vhd
+# Compile Entity "inst_decode"
+# Compile Architecture "decoder" of Entity "inst_decode"
+# Compile Entity "inst_decode_tb"
+# Compile Architecture "tb" of Entity "inst_decode_tb"
+# File: C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/Register.vhd
+# Compile Entity "register_24bit"
+# Compile Architecture "behavioral" of Entity "register_24bit"
+# Compile Entity "register_4bit"
+# Compile Architecture "behavioral" of Entity "register_4bit"
+# Compile Entity "register_24bit_tb"
+# Compile Architecture "behavioral" of Entity "register_24bit_tb"
+# File: C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/ControlUnit.vhd
+# Compile Entity "ContUnit"
+# Compile Architecture "static" of Entity "ContUnit"
+# Compile Entity "tb_ContUnit"
+# Compile Architecture "tb" of Entity "tb_ContUnit"
+# File: C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/memory.vhd
+# Compile Entity "memory"
+# Compile Architecture "behavioral" of Entity "memory"
+# Compile Entity "memory_tb"
+# Compile Architecture "behavioral" of Entity "memory_tb"
+# File: C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/Muxes&units.vhd
+# Compile Entity "sign_extender"
+# Compile Architecture "behavior" of Entity "sign_extender"
+# Compile Entity "sign_extender_tb"
+# Compile Architecture "behavior" of Entity "sign_extender_tb"
+# Compile Entity "rotate"
+# Compile Architecture "behavior" of Entity "rotate"
+# Compile Entity "mux2x1_24"
+# Compile Architecture "behavior" of Entity "mux2x1_24"
+# Compile Entity "mux2x1_24_tb"
+# Compile Architecture "behavior" of Entity "mux2x1_24_tb"
+# Compile Entity "mux3x1_24"
+# Compile Architecture "behavior" of Entity "mux3x1_24"
+# Compile Entity "mux3x1_24_tb"
+# Compile Architecture "behavior" of Entity "mux3x1_24_tb"
+# Compile Entity "mux4x1_3"
+# Compile Architecture "behavior" of Entity "mux4x1_3"
+# Compile Entity "mux4x1_24"
+# Compile Architecture "behavior" of Entity "mux4x1_24"
+# File: C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "behavioral" of Entity "alu"
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# File: C:/Users/hp/Desktop/Architecture/simpleCont22/simpleCont/src/Clock.vhd
+# Compile Entity "clock_generator"
+# Compile Architecture "behavior" of Entity "clock_generator"
+# File: ./../compile/DataPath.vhd
+# Compile Entity "DataPath"
+# Compile Architecture "DataPath" of Entity "DataPath"
+# Top-level unit(s) detected:
+# Entity => memory_tb
+# Entity => inst_decode_tb
+# Entity => register_file_tb
+# Entity => status_register_8bit_tb
+# Entity => register_24bit_tb
+# Entity => pc_tb
+# Entity => sign_extender_tb
+# Entity => mux3x1_24_tb
+# Entity => mux2x1_24_tb
+# Entity => tb_ContUnit
+# Entity => alu_tb
+# Entity => DataPath
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

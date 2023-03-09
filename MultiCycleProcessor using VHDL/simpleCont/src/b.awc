@@ -1,0 +1,70 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="04d4c4eace237a4aed63e30537011e00">b.asdb</database>
+    </databases>
+    <gridshown/>
+    <signallists>
+        <signallist id="0">
+        <signal>/DataPath/clk</signal>
+        <signal>/DataPath/cond</signal>
+        <signal>/DataPath/opcode</signal>
+        <signal>/DataPath/sf</signal>
+        <signal>/DataPath/rd</signal>
+        <signal>/DataPath/rt</signal>
+        <signal>/DataPath/rs</signal>
+        <signal>/DataPath/state</signal>
+        <signal>/DataPath/control</signal>
+        <signal>/DataPath/zeroflag</signal>
+        <signal>/DataPath/a</signal>
+        <signal>/DataPath/b</signal>
+        <signal>/DataPath/adress</signal>
+        <signal>/DataPath/aluout</signal>
+        <signal>/DataPath/alubreg</signal>
+        <signal>/DataPath/alu1</signal>
+        <signal>/DataPath/alu2</signal>
+        <signal>/DataPath/luiimm</signal>
+        <signal>/DataPath/memoryout</signal>
+        <signal>/DataPath/memoutbreg</signal>
+        <signal>/DataPath/nextstate</signal>
+        <signal>/DataPath/pcen</signal>
+        <signal>/DataPath/pcbus</signal>
+        <signal>/DataPath/pcsrc</signal>
+        <signal>/DataPath/signextimm</signal>
+        <signal>/DataPath/regwriteback</signal>
+        <signal>/DataPath/regw</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="408598" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="1200000" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

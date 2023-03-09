@@ -1,0 +1,11 @@
+i<>.\src\fulladder.vhd
+i<>.\src\memory.vhd
+i<>.\src\registerfile.vhd
+i<>.\src\pc.vhd
+i<>.\src\regdecode.vhd
+i<>.\src\Muxes&units.vhd
+i<>.\src\status_reg.vhd
+i<>.\src\Register.vhd
+i<>.\src\ControlUnit.vhd
+i<>.\src\DataPath.bde
+i<>.\src\Clock.vhd
